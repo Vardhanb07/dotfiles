@@ -68,6 +68,12 @@ exec_always --no-startup-id ~/.config/polybar/launch.sh
 # touchegg 
 exec_always --no-startup-id touchegg
 
+# map brightness hot keys to brightnessctl commands
+# increase 
+bindsym XF86MonBrightnessUp exec --no-startup-id brightnessctl set +5%
+# decrease 
+bindsym XF86MonBrightnessDown exec --no-startup-id brightnessctl set 5%-
+
 # change focus
 bindsym $mod+j focus left
 bindsym $mod+k focus down
