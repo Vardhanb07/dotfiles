@@ -65,6 +65,9 @@ bindsym $mod+d exec "rofi -modi drun,run -show drun -config ~/.config/rofi/confi
 # polybar launch script 
 exec_always --no-startup-id ~/.config/polybar/launch.sh
 
+# touchegg 
+exec_always --no-startup-id touchegg
+
 # change focus
 bindsym $mod+j focus left
 bindsym $mod+k focus down
