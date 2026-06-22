@@ -9,3 +9,13 @@ sudo dnf install stow
 ```bash
 stow *
 ```
+
+# packages
+
+- brightnessctl
+- i3
+- polybar
+- touchegg
+- rofi
+- sway
+- ghostty
