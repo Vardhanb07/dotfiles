@@ -74,6 +74,11 @@ bindsym XF86MonBrightnessUp exec --no-startup-id brightnessctl set +5%
 # decrease 
 bindsym XF86MonBrightnessDown exec --no-startup-id brightnessctl set 5%-
 
+
+# screenshot (saves to clipboard and a file in ~/Pictures/Screenshots)
+# key: PrtSc
+bindsym Print exec NOW=$(date +%d-%b-%Y_%H-%M-%S) && maim --format png --select > ~/Pictures/Screenshots/screenshot_$NOW.png && xclip -selection clip -t image/png ~/Pictures/Screenshots/screenshot_$NOW.png
+
 # change focus
 bindsym $mod+j focus left
 bindsym $mod+k focus down

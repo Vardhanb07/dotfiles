@@ -19,3 +19,5 @@ stow *
 - rofi
 - sway
 - ghostty
+- xclip
+- maim
