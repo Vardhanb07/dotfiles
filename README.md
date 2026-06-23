@@ -21,3 +21,4 @@ stow *
 - ghostty
 - xclip
 - maim
+- yazi
