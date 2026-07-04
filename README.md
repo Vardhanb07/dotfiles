@@ -24,5 +24,4 @@ stow *
 - yazi
 - dms
 - niri
-- tide
 - fish
