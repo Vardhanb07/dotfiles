@@ -70,9 +70,9 @@ exec_always --no-startup-id touchegg
 
 # map brightness hot keys to brightnessctl commands
 # increase 
-bindsym XF86MonBrightnessUp exec --no-startup-id brightnessctl set +5%
+bindsym XF86MonBrightnessUp exec --no-startup-id brightnessctl set +2%
 # decrease 
-bindsym XF86MonBrightnessDown exec --no-startup-id brightnessctl set 5%-
+bindsym XF86MonBrightnessDown exec --no-startup-id brightnessctl set 2%-
 
 
 # screenshot (saves to clipboard and a file in ~/Pictures/Screenshots)
