@@ -25,3 +25,4 @@ stow *
 - [dms](https://github.com/AvengeMedia/DankMaterialShell)
 - [niri](https://github.com/niri-wm/niri)
 - [fish](https://fishshell.com/)
+- [brm](https://github.com/Vardhanb07/brm)
