@@ -1,0 +1,31 @@
+[[links]]
+filepath = "~/dotfiles/ghostty"
+linkpath = "~/.config"
+
+[[links]]
+filepath = "~/dotfiles/i3"
+linkpath = "~/.config"
+
+[[links]]
+filepath = "~/dotfiles/mango"
+linkpath = "~/.config"
+
+[[links]]
+filepath = "~/dotfiles/niri"
+linkpath = "~/.config"
+
+[[links]]
+filepath = "~/dotfiles/polybar"
+linkpath = "~/.config"
+
+[[links]]
+filepath = "~/dotfiles/rofi"
+linkpath = "~/.config"
+
+[[links]]
+filepath = "~/dotfiles/sway"
+linkpath = "~/.config"
+
+[[links]]
+filepath = "~/dotfiles/touchegg"
+linkpath = "~/.config"
