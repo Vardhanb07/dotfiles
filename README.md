@@ -1,13 +1,13 @@
-# install gnu stow
+# install lman
 
 ```bash
-sudo dnf install stow
+go install github.com/Vardhanb07/lman@latest
 ```
 
 # run
 
 ```bash
-stow *
+lman
 ```
 
 # packages
