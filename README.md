@@ -26,3 +26,4 @@ stow *
 - [niri](https://github.com/niri-wm/niri)
 - [fish](https://fishshell.com/)
 - [brm](https://github.com/Vardhanb07/brm)
+- [lman](https://github.com/Vardhanb07/lman)
