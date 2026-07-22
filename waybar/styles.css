@@ -1,0 +1,64 @@
+* {
+  border: none;
+  border-radius: 0;
+  font-family: "Fira Code";
+  font-size: 16px;
+  min-height: 0;
+  padding: 0;
+  margin: 0;
+}
+
+window#waybar {
+  background: transparent;
+}
+
+tooltip {
+  background: rgba(43, 48, 59, 0.5);
+  border: 1px solid rgba(100, 114, 125, 0.5);
+}
+
+tooltip label {
+  color: white;
+}
+
+#workspaces button {
+  padding: 3px;
+  margin: 2px;
+  color: white;
+  border-radius: 3px;
+}
+
+#workspaces button.focused {
+  background: #64727d;
+}
+
+#clock {
+  padding: 0 10px;
+  color: white;
+}
+
+#battery {
+  color: white;
+}
+
+#battery.charging {
+  color: white;
+  background-color: #26a65b;
+}
+
+@keyframes blink {
+  to {
+    background-color: #ffffff;
+    color: black;
+  }
+}
+
+#battery.warning:not(.charging) {
+  background: #f53c3c;
+  color: white;
+  animation-name: blink;
+  animation-duration: 0.5s;
+  animation-timing-function: steps(12);
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}

@@ -29,3 +29,7 @@ linkpath = "~/.config"
 [[links]]
 filepath = "~/dotfiles/touchegg"
 linkpath = "~/.config"
+
+[[links]]
+filepath = "~/dotfiles/waybar"
+linkpath = "~/.config"
