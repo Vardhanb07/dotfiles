@@ -33,3 +33,7 @@ linkpath = "~/.config"
 [[links]]
 filepath = "~/dotfiles/waybar"
 linkpath = "~/.config"
+
+[[links]]
+filepath = "~/dotfiles/.cobra.yaml"
+linkpath = "~"
