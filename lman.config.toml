@@ -37,3 +37,7 @@ linkpath = "~/.config"
 [[links]]
 filepath = "~/dotfiles/.cobra.yaml"
 linkpath = "~"
+
+[[links]]
+filepath = "~/dotfiles/.m2"
+linkpath = "~"
