@@ -25,8 +25,7 @@ set $menu fuzzel
 
 output * bg /home/vardhanbattula/Pictures/Wallpapers/cwall.png fill
 
-# use default waybar as the current one is unstable
-exec_always waybar -c /etc/xdg/waybar/config.jsonc -s /etc/xdg/waybar/style.css
+exec_always --no-startup-id ~/.config/waybar/launch.sh
 
 #
 # Example configuration:
@@ -222,5 +221,7 @@ bindsym $mod+r mode "resize"
 # bar {
 #   swaybar_command waybar
 # }
+
+title_align center
 
 include /etc/sway/config.d/*
