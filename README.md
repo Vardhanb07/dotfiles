@@ -30,4 +30,4 @@ lman
 - [skate](https://github.com/Vardhanb07/skate)
 - [feh](https://github.com/derf/feh)
 - [waybar](https://github.com/Alexays/Waybar)
-- [okular]()
+- [okular](https://okular.kde.org/)
