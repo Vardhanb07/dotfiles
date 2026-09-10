@@ -45,3 +45,7 @@ linkpath = "~"
 [[links]]
 filepath = "~/dotfiles/wlogout"
 linkpath = "~/.config"
+
+[[links]]
+filepath = "~/dotfiles/zellij"
+linkpath = "~/.config"

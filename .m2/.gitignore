@@ -1,2 +1,2 @@
-repository/
-wrapper/
+* 
+!settings.xml
