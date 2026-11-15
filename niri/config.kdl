@@ -61,7 +61,7 @@ binds {
     Mod+Shift+Slash { show-hotkey-overlay; }
 
     Mod+Return hotkey-overlay-title="Open ghsotty" { spawn "ghostty"; } 
-    Mod+D hotkey-overlay-title="Run an Application: fuzzel" { spawn-sh "fuzzel"; }
+    Mod+D hotkey-overlay-title="Run an Application: vapplauncher" { spawn-sh "vapplauncher"; }
     Super+Alt+L hotkey-overlay-title="Lock the Screen: swaylock" { spawn "gtklock"; }
 
     Super+Alt+S allow-when-locked=true hotkey-overlay-title=null { spawn-sh "pkill orca || exec orca"; }
