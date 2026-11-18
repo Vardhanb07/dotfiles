@@ -1,0 +1,17 @@
+{
+  "shutdown": {
+    "cmd": "systemctl poweroff"
+  },
+  "sleep": {
+    "cmd": "systemctl hibernate"
+  },
+  "reboot": {
+    "cmd": "systemctl reboot"
+  },
+  "logout": {
+    "cmd": "loginctl terminate-user $USER"
+  },
+  "lock": {
+    "cmd": "gtklock"
+  }
+}
